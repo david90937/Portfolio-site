@@ -1,0 +1,88 @@
+body {
+    background-color: #222733
+}
+
+#navbar-container{
+    background-color: #525e65;
+    height: 3em;
+}
+
+.link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #DBE8D4;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.header-title {
+    font-size: 2rem;
+}
+
+.card{
+    background-color: #222733;
+    border: none;
+}
+
+.img-container {
+    height: 15rem;
+}
+
+.profile-image{
+    max-width: 70%;
+    height: auto;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.article-intro {
+    width: 25vw;
+    margin: auto;
+}
+
+.accordion-body {
+    color: #DBE8D4;
+    background-color: #525e65;
+}
+
+.accordion-button {
+    color: #DBE8D4;
+    background-color: #525e65;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 40vh;
+  }
+  
+.footer-content {
+    margin-top: 10rem;
+}
+
+.email-link {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.social-icon{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.to-top {
+    max-width: 100%;
+    height: 7vw;
+    margin-top: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6, header {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin: 3rem 0;
+}
