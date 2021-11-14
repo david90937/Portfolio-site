@@ -14,23 +14,23 @@ const Projects = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <a href="https://github.com/david90937/Eve-Ore-Calculator" target="_blank" rel="noreferrer"><img src="https://cdn.pixabay.com/photo/2016/08/16/17/32/fluorite-1598476__340.jpg" className="d-block w-100" alt="..." /></a>
-                            <div className="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-md-block">
                             <a href="https://github.com/david90937/Eve-Ore-Calculator" target="_blank" rel="noreferrer"><h5>Ore Calculator</h5></a>
-                                <p>A small tool I created using Python and Tkinter to calculate the profitability of producing certain in-game goods for the MMO Eve Online.</p>
+                                <p className="carousel-desc">A small tool I created using Python and Tkinter to calculate the profitability of producing certain in-game goods for the MMO Eve Online.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <a href="https://github.com/david90937/Innovate-Birmingham-Coursework" target="_blank" rel="noreferrer"><img src="https://cdn.pixabay.com/photo/2020/04/25/12/14/tech-5090539__340.jpg" className="d-block w-100" alt="..." /></a>
-                            <div className="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-md-block">
                             <a href="https://github.com/david90937/Innovate-Birmingham-Coursework" target="_blank" rel="noreferrer"><h5>Innovate Birmingham Coursework</h5></a>
-                                <p>A github repository containing all of the classwork I completed during the Innovate Birmingham bootcamp. </p>
+                            <p className="carousel-desc">A github repository containing all of the classwork I completed during the Innovate Birmingham bootcamp. </p>
                             </div>
                         </div> 
                         <div className="carousel-item">
                             <a href="https://github.com/david90937/Chirpr_Full_Stack" target="_blank" rel="noreferrer"><img src="https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659__340.jpg" className="d-block w-100" alt="..." /> </a>
-                            <div className="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-md-block">
                             <a href="https://github.com/david90937/Chirpr_Full_Stack" target="_blank" rel="noreferrer"><h5>Chirpr Fullstack</h5></a>
-                                <p>This project is a placeholder until my final Innovate Birmingham project has been completed.</p>
+                                <p className="carousel-desc">This project is a placeholder until my final Innovate Birmingham project has been completed.</p>
                             </div>
                         </div>
                     </div>
